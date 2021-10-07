@@ -1,0 +1,20 @@
+/* GLOBAL STYLES */
+body {
+  background-image: url("https://i.imgur.com/bm0ovwD.jpg");
+  background-repeat: repeat;
+  background-size: 88px 83px;
+  padding-top: 5em;
+  display: flex;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
